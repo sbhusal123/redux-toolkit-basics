@@ -71,3 +71,17 @@ const unsubscribe = store.subscribe(() => {
 
 store.dispatch(updateStreet('Nepal'))
 unsubscribe()
+
+
+/**
+Output
+
+Initial State {
+  name: 'Viswas',
+  address: { street: '123 Main St.', city: 'Boston', state: 'MA' }
+}
+Updated state  {
+  name: 'Viswas',
+  address: { street: 'Nepal', city: 'Boston', state: 'MA' }
+}
+ */
