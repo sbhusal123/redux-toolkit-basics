@@ -2,7 +2,7 @@ import {createSlice} from '@reduxjs/toolkit'
 import {ordered as cakeOrdered} from '../cake/cakeSlics';
 
 const initialState = {
-    numOfIceCreams: 10
+    numOfIceCreams: 20
 }
 
 /**
