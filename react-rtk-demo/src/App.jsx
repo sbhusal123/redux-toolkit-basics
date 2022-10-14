@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2> Offer: Buy one Cake Get one Ice Cream Free.</h2>
+      <h1> Offer: Buy one Cake Get one Ice Cream Free.</h1>
       <CakeView/>
       <IceCreamView/>
       <UserView/>
